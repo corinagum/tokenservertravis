@@ -1,7 +1,7 @@
 FROM node:12
-RUN apk update && \
-  apk upgrade && \
-  apk add --no-cache bash git openssh
+RUN apt-get update -y && \
+  apt-get upgrade -y && \
+  apt-get add --no-cache -y bash git openssh
 ADD . /bot
 WORKDIR /bot
 RUN npm install npm@latest -g && \
