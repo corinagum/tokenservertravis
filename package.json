@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/corinagum/tokenservertravis#readme",
   "dependencies": {
-    "dotenv": "^16.1.4",
+    "dotenv": "^16.3.1",
     "node-fetch": "^3.3.1",
     "restify": "^11.1.0"
   }
